@@ -6,7 +6,7 @@ on: [push]
 jobs:
   say-hello:
     # Use the latest Ubuntu runner provided by GitHub
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     
     steps:
       - name: Print Hello World
